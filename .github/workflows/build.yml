@@ -1,4 +1,4 @@
-name: Zootopia Build CI
+name: Zootopia Build CI & CD
 
 on:
   push:
@@ -7,23 +7,6 @@ on:
     branches: [stage]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install dependencies
-        run: yarn install
-      - run: yarn run build --if-present
-
   deploy:
     name: Deployment to Github-pages
     runs-on: ubuntu-latest
@@ -41,11 +24,13 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn
+      - name: Install dependencies
+        run: yarn install
       - run: |
-          git config --global user.name "Raktim Shrestha"
-          git config --global user.email "raktim@rumsan.com"
-      - run: yarn run build
+          git config --global user.name ${{ secrets.GIT_USER }}
+          git config --global user.email ${{ secrets.GIT_EMAIL }}
+      - name: Build the Files
+        run: yarn run build --if-present
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
