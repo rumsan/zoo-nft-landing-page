@@ -50,8 +50,8 @@ module.exports = {
 		],
 		camelcase: 'off',
 		'import/no-anonymous-default-export': [2, { allowAnonymousFunction: true }],
-		'arrow-body-style': 'off',
-		'prefer-arrow-callback': 'off'
+		'arrow-body-style': 'off'
+		// 'prefer-arrow-callback': 'off'
 	},
 	ignorePatterns: [
 		'tests/*',
