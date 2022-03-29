@@ -18,33 +18,56 @@ function Footer() {
                     is diversified multi-business company.
                   </p>
                   <div className="company-logo">
-                      <a target="_blank" rel="noreferrer" href="https://askbhunte.com/">
-                        <img
-                          src="https://assets.rumsan.com/askbhunte/assets/askbhunte-sq.png"
-                          alt="ask bhunte"
-                        />
-                      </a>
-                      <a target="_blank" rel="noreferrer"  href="https://agriclear.io/">
-                        <img
-                          src="https://assets.rumsan.com/esatya/agriclear-sq.png"
-                          alt="agriclear"
-                        />
-                      </a>
-                      <a target="_blank" rel="noreferrer"  href="https://esatya.io/">
-                        <img
-                          src="https://assets.rumsan.com/esatya/esatya-square-logo-500x500.png"
-                          alt="esatya"
-                        />
-                      </a>
-                      <a target="_blank" rel="noreferrer"  href="https://lonetreenepal.com/">
-                        <img
-                          src="https://assets.rumsan.com/rumsan-test/lonetree-100x100.png"
-                          alt="lonetreenepal"
-                        />
-                      </a>
-                      <a target="_blank" rel="noreferrer"  href="https://hamrolifebank.com/">
-                        <img src="https://assets.rumsan.com/esatya/hlb-blk-rumsan.png" alt="hamrolifebank" />
-                      </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://askbhunte.com/"
+                    >
+                      <img
+                        src="https://assets.rumsan.com/askbhunte/assets/askbhunte-sq.png"
+                        alt="ask bhunte"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://agriclear.io/"
+                    >
+                      <img
+                        src="https://assets.rumsan.com/esatya/agriclear-sq.png"
+                        alt="agriclear"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://esatya.io/"
+                    >
+                      <img
+                        src="https://assets.rumsan.com/esatya/esatya-square-logo-500x500.png"
+                        alt="esatya"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://lonetreenepal.com/"
+                    >
+                      <img
+                        src="https://assets.rumsan.com/rumsan-test/lonetree-100x100.png"
+                        alt="lonetreenepal"
+                      />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://hamrolifebank.com/"
+                    >
+                      <img
+                        src="https://assets.rumsan.com/esatya/hlb-blk-rumsan.png"
+                        alt="hamrolifebank"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -76,17 +99,18 @@ function Footer() {
                 <div className="fw-link">
                   <ul>
                     <li>
-                      <i className="icofont-home"></i> Rumsan Group LLC
+                      <i className="icofont-home"></i>
+                      <a href="/">Rumsan Group LLC</a>
                     </li>
                     <li>
-                      24 Parkview Rd Randolph,NJ 07869
+                      <a href="/">24 Parkview Rd Randolph, NJ 07869</a>
                     </li>
                     <li>
-                      <i className="icofont-live-support"></i>{" "}
+                      <i className="icofont-live-support"></i>
                       <a href="tel:+977 9801230044"> +1 330 967 0033</a>
                     </li>
                     <li>
-                      <i className="icofont-envelope"></i>{" "}
+                      <i className="icofont-envelope"></i>
                       <a href="mailto:team@rahat.io"> team@rumsan.com</a>
                     </li>
                   </ul>
