@@ -33,7 +33,7 @@ jobs:
 
       - name: Build the Files
         run: yarn run build --if-present
-        -  shell: bash
+      - shell: bash
         run: |
           mv ./CNAME ./build
         #env:
