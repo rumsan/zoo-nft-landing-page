@@ -4,6 +4,6 @@ import $ from 'jquery';
 
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'), function () {
+ReactDOM.render(<App />, document.getElementById('root'), () => {
 	$('#preloader').delay(0).fadeOut();
 });

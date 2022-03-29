@@ -2,5 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 #yarn run pretty && yarn lint && git add .yarn lint
-yarn lint
 yarn pretty
