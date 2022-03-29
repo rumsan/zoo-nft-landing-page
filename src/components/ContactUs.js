@@ -9,7 +9,7 @@ function ContactUs() {
 						<div className="contact-title mb-20 text-center">
 							<h5 className="sub-title">Contact Us</h5>
 							<h2 className="title">
-								Let's Talk Question<span>.</span>
+								Let&#39;s Talk Question<span>.</span>
 							</h2>
 						</div>
 					</div>

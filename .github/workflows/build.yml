@@ -33,8 +33,8 @@ jobs:
 
       - name: Build the Files
         run: yarn run build --if-present
-        env:
-          CI: false
+        #env:
+        #  CI: false
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

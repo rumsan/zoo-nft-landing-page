@@ -1,19 +1,52 @@
 module.exports = {
+	// env: {
+	// 	browser: true,
+	// 	es2021: true
+	// },
+	// extends: ['airbnb-base', 'prettier'],
+	// parserOptions: {
+	// 	ecmaVersion: 12,
+	// 	sourceType: 'module'
+	// },
+	// plugins: ['prettier'],
 	env: {
 		browser: true,
-		es2021: true
+		commonjs: true,
+		es6: true
 	},
-	extends: ['airbnb-base', 'prettier'],
+	parser: 'babel-eslint',
+	extends: [
+		'eslint:recommended',
+		'airbnb-base',
+		'plugin:react/recommended',
+		'plugin:import/errors',
+		'plugin:import/warnings',
+		'plugin:jsx-a11y/recommended',
+		'prettier'
+	],
+	globals: {
+		Atomics: 'readonly',
+		SharedArrayBuffer: 'readonly'
+	},
 	parserOptions: {
-		ecmaVersion: 12,
+		ecmaFeatures: {
+			jsx: true
+		},
+		ecmaVersion: 11,
 		sourceType: 'module'
 	},
-	plugins: ['prettier'],
+	settings: {
+		react: {
+			version: 'detect'
+		}
+	},
+	plugins: ['react', 'react-hooks', 'prettier'],
 	rules: {
 		'no-underscore-dangle': ['error', { allow: ['_id'] }],
 		'class-methods-use-this': 0,
 		'no-console': 0,
 		'no-param-reassign': 0,
+		'react/prop-types': 0,
 		quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
 		'prettier/prettier': [
 			'error',

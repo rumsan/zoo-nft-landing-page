@@ -1,3 +1,4 @@
+import React from 'react';
 import { HashRouter as Router, Switch } from 'react-router-dom';
 import Header from './components/layouts/Header';
 import Footer from './components/layouts/Footer';
