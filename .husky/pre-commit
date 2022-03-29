@@ -4,4 +4,3 @@
 #yarn run pretty && yarn lint && git add .yarn lint
 yarn lint
 yarn pretty
-git add .
