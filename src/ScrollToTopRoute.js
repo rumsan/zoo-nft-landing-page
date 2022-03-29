@@ -3,18 +3,20 @@ import { Route, withRouter } from 'react-router-dom';
 import './App.css';
 
 class ScrollToTopRoute extends Component {
-  componentDidUpdate(prevProps) {
-    if (this.props.path === this.props.location.pathname && this.props.location.pathname !== prevProps.location.pathname) {
-      window.scrollTo(0, 0)
-    }
-  }
+	componentDidUpdate(prevProps) {
+		if (
+			this.props.path === this.props.location.pathname &&
+			this.props.location.pathname !== prevProps.location.pathname
+		) {
+			window.scrollTo(0, 0);
+		}
+	}
 
-  render() {
+	render() {
+		const { ...rest } = this.props;
 
-    const { ...rest } = this.props;
-
-    return <Route {...rest}/>;
-  }
+		return <Route {...rest} />;
+	}
 }
 
 export default withRouter(ScrollToTopRoute);

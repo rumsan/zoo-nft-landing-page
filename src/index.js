@@ -1,9 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import $ from "jquery";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
 
-import App from "./App";
+import App from './App';
 
-ReactDOM.render(<App />, document.getElementById("root"), function () {
-  $("#preloader").delay(0).fadeOut();
+ReactDOM.render(<App />, document.getElementById('root'), () => {
+	$('#preloader').delay(0).fadeOut();
 });
