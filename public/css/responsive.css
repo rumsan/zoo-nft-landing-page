@@ -165,9 +165,9 @@
       margin-left: 0;
       margin-top: 0;
   }
-  .adoption-area {
+  /* .adoption-area {
       padding: 110px 0 0;
-  }
+  } */
   .adoption-content {
       padding-bottom: 0;
   }
@@ -581,7 +581,17 @@
   }
   .adoption-content .title {
       font-size: 32px;
+      margin-top: 40px;
   }
+
+  .adoption-content .mobile-title {
+      margin-top: 0px;
+  }
+
+.mobile-adoption-content {
+    margin-top: 20px;
+}
+
   .breed-services-shape.shape-two {
       display: none;
   }

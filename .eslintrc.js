@@ -32,6 +32,7 @@ module.exports = {
 	},
 	plugins: ['react', 'react-hooks', 'prettier'],
 	rules: {
+		'func-names': ["error", "never"],
 		'no-underscore-dangle': ['error', { allow: ['_id'] }],
 		'class-methods-use-this': 0,
 		'no-console': 0,

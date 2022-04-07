@@ -7,9 +7,12 @@ function ContactUs() {
 				<div className="row justify-content-center justify-content-lg-between">
 					<div className="col-lg-12 col-md-8 order-2 order-lg-0">
 						<div className="contact-title mb-20 text-center">
+							<div className="section-title text-center mb-1">
+								<img src="../../img/pawprint.png" alt="" style={{ width: '40px' }} />
+							</div>
 							<h5 className="sub-title">Contact Us</h5>
 							<h2 className="title">
-								Let&#39;s Talk Question<span>.</span>
+								Lets Talk Question<span>.</span>
 							</h2>
 						</div>
 					</div>
@@ -37,11 +40,11 @@ function ContactUs() {
 						<label htmlFor="message">
 							Your Message <span>*</span>
 						</label>
-						<textarea name="message" id="message" placeholder="Opinion..." />
+						<textarea name="message" id="message" placeholder="Opinion..." defaultValue={''} />
 					</div>
 					<div className="form-grp checkbox-grp">
 						<input type="checkbox" id="checkbox" />
-						<label htmlFor="checkbox">Don’t show your email address</label>
+						<label htmlFor="checkbox">Dont show your email address</label>
 					</div>
 					<button type="button" className="btn rounded-btn">
 						Send Now

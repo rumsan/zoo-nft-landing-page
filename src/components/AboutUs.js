@@ -7,7 +7,7 @@ function AboutUs({ afterElment }) {
 				<div className="row">
 					<div className="col-lg-6">
 						<h2 className="title">
-							Join Our Mission To Increase Efforts Of Animal Conservation With{' '}
+							Join With Us On Our Mission To Increase Efforts Of Animal Conservation With{' '}
 							<span style={{ color: '#fdd241' }}> Animal NFTs</span>
 						</h2>
 						<div className="adoption-content">

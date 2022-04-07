@@ -79,18 +79,15 @@ function Footer() {
 								<div className="fw-link">
 									<ul>
 										<li>
-											<i className="icofont-home"></i>
-											<a href="/">Rumsan Group LLC</a>
+											<i className="icofont-home"></i> Rumsan Group LLC
 										</li>
+										<li>24 Parkview Rd Randolph,NJ 07869</li>
 										<li>
-											<a href="/">24 Parkview Rd Randolph, NJ 07869</a>
-										</li>
-										<li>
-											<i className="icofont-live-support"></i>
+											<i className="icofont-live-support"></i>{' '}
 											<a href="tel:+977 9801230044"> +1 330 967 0033</a>
 										</li>
 										<li>
-											<i className="icofont-envelope"></i>
+											<i className="icofont-envelope"></i>{' '}
 											<a href="mailto:team@rahat.io"> team@rumsan.com</a>
 										</li>
 									</ul>

@@ -3,12 +3,17 @@ import { Link } from 'react-router-dom';
 
 function HowItWorks() {
 	return (
-		<section className="adoption-area-two pt-110 pb-50">
+		<section className="adoption-area-two pt-50 pb-50">
 			<div className="container">
 				<div className="row justify-content-center">
 					<div className="col-xl-7 col-lg-9">
-						<div className="section-title text-center mb-65">
-							<h2 className="title">How It Works ?</h2>
+						<div className="section-title text-center mb-40">
+							<img src="../../img/pawprint.png" alt="" style={{ width: '40px' }} />
+							<h2 className="title mt-1">How It Works ?</h2>
+							<p>
+								You Can Ceate Animal NFTs To Build And Enhance Your Efforts Towards Your Animal Care
+								And Conservation
+							</p>
 						</div>
 					</div>
 				</div>
@@ -19,18 +24,16 @@ function HowItWorks() {
 						<div className="adoption-item">
 							<div className="adopt-thumb">
 								<Link to="/breeder-details">
-									<img src="https://assets.rumsan.com/esatya/exchange.png" alt="" />
+									<img src="../../img/hiw-2.jpg" alt="" />
 								</Link>
 							</div>
 							<div className="adopt-content">
 								<h3 className="title">
-									<Link to="/breeder-details">
-										Animal NFTs <br /> Campaign
-									</Link>
+									<Link to="/breeder-details">Animal NFTs Campaign</Link>
 								</h3>
 								<p>
-									We create NFTs of your animals and a platform for your animal lovers to purchase
-									and trade. With every NFT being traded you will receive a royalty.{' '}
+									You Can Ceate Animal NFTs To Build And Enhance Your Efforts Towards Your Animal
+									Care And Conservation
 								</p>
 							</div>
 						</div>
@@ -39,7 +42,7 @@ function HowItWorks() {
 						<div className="adoption-item">
 							<div className="adopt-thumb">
 								<Link to="/breeder-details">
-									<img src="https://assets.rumsan.com/esatya/house.png" alt="" />
+									<img src="../../img/hiw-1.jpg" alt="" />
 								</Link>
 							</div>
 							<div className="adopt-content">
@@ -47,7 +50,7 @@ function HowItWorks() {
 									<Link to="/breeder-details">Adopt an Animal Campaigns </Link>
 								</h3>
 								<p>
-									Create or add animal NFTs to your existing adopt an animal campaign. These NFTs
+									Create or add animal NFTs to your existing Adopt an Animal campaign. These NFTs
 									will help adopters build a personal relationship with individual animals through
 									special updates.
 								</p>
@@ -58,16 +61,12 @@ function HowItWorks() {
 						<div className="adoption-item">
 							<div className="adopt-thumb">
 								<Link to="/breeder-details">
-									<img src="https://assets.rumsan.com/esatya/building.png" alt="" />
+									<img src="../../img/hiw-3.jpg" alt="" />
 								</Link>
 							</div>
 							<div className="adopt-content">
 								<h3 className="title">
-									<Link to="/breeder-details">
-										Visit
-										<br />
-										Memorabilia
-									</Link>
+									<Link to="/breeder-details">Visit Memorabilia</Link>
 								</h3>
 								<p>
 									Turn visits to your sanctuary or zoo into permanent memorabilia for your visitors!

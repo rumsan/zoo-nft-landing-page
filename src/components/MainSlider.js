@@ -33,7 +33,8 @@ function MainSlider() {
 												data-delay=".2s"
 												data-duration="1.2s"
 											>
-												Supporting Animal Conservation with NFTs
+												SUPPORTING ANIMAL CONSERVATION WITH
+												<span style={{ color: '#fdd241' }}>NFTs</span>
 											</h2>
 										</div>
 										<div className="slider-desc">
@@ -43,7 +44,7 @@ function MainSlider() {
 												data-delay=".4s"
 												data-duration="1.2s"
 											>
-												Raise funds for the care and welfare of animals through NFTs.
+												Raising funds for the care and welfare of animals through NFTs
 											</p>
 										</div>
 									</div>
