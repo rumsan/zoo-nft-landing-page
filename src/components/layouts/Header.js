@@ -80,9 +80,9 @@ function Header() {
 												</Link>
 											</li>
 
-											<li className="active menu-item-has-children">
+											{/* <li className="active menu-item-has-children">
 												<Link to="#">Our MarketPlace</Link>
-											</li>
+											</li> */}
 										</ul>
 									</div>
 								</nav>
